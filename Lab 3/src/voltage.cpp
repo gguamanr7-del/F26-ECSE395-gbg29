@@ -3,9 +3,8 @@
 // function prototype
 float voltage(float analogvalue);
 
-// Put your potentiometer pin assignment here
- //GBG29
-const int sensorPin = A1;//gbg29
+
+const int sensorPin = A1;//gbg29: Sets the potentiometer pin to A1
 
 void setup() {
     Serial.begin(115200);
@@ -13,17 +12,15 @@ void setup() {
 
 void loop() {
     // This is the line for printing in the serial
-    int sensorValue = analogRead(sensorPin); //gbg
-    float sensorVoltage = voltage(sensorValue);
-    Serial.println(sensorVoltage);
-    delay(150); //gbg29 
+    int sensorValue = analogRead(sensorPin); //gbg29: Reads the analog value from the potentiometer and stores it in sensorValue
+    float sensorVoltage = voltage(sensorValue); //gbg29: Converts the sensor value into voltage usomg the voltage function
+    Serial.println(sensorVoltage); //gbg29: Prints the potentiometer voltage to the Serial Monitor
+    delay(150); //gbg29: Waits 150 ms before reading and printing the voltage again
 }
 
 // function to calculate output voltage
 float voltage(float analogvalue){
-    float volt;
-    volt = (analogvalue*3.3)/4095.0;
-    //analogRead(sensorPin); gives us 0-4095 values
-    //use the formula (Analog value*Reference voltage) / (Sensor Resolution) to calculate the output voltage
-    return volt;
+    float volt; //gbg29: Creates a float variable to store the calculated voltage 
+    volt = (analogvalue*3.0)/4095.0; //gbg29: Converts the analog voltage using a 3.0V reference voltage and a miximum analog value of 4095
+    return volt; //gbg29: Returns the calculated voltage back 
 }
