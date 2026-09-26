@@ -9,5 +9,5 @@ Works/Tasks Completed:
   
 * **September 21, 2026:** I created 2 of the 3 main/core concepts that should be presented to Mr. Levacy.
   
-* **September 23, 2026:** I completed Lab 5 and used some of the concepts from the lab to test ideas that could be applied to our project.
+* **September 25, 2026:** I completed Lab 5 and used some of the concepts from the lab to test ideas that could be applied to our project.
 
