@@ -16,9 +16,9 @@ This is my fourth assignment working with the ESP32. The goal of this lab is to 
 11. I used the touch sensor to determine which target angle the TT motor should move toward.
 12. I used the potentiometer as feedback while the TT motor was running so the motor could stop once the target angle was reached
 13. I tested the system multiple times to ensure it operated correctly and verifies them using the Serial Monitor to view the potentiometer and touch sensor readings.
-14. I recorded pictures of the circuit and a video showing the sensor and actuator working together.
+14. I recorded pictures of the circuit and a video showing the sensor and actuator working together. Only the pictures are available in this file
 15. I documented my observations, testing, and reflection in _integration exploration.md_.
-16. I then pushed and committed all of these changes to GitHub.
+16. I then committed and pushed all of these changes to GitHub.
 
 
 All of the files for this lab are located in the Lab 5 folder of my ECSE 395 GitHub repository. These include:
@@ -36,16 +36,10 @@ I modeled this after my project. So another brief explanation of the system in t
 ### Proof of Sensors-Actuator Integration (Extra Credit)
 #### Circuit Schematic:
 ![Setup](schematic.png)
-
-
-
-
 #### Pictures of Setup:
 ![Setup](IMG_6372.jpeg)
 
 ![Setup](IMG_6375.jpeg)
-#### Video of Sensor-Actuator Integration:
-![Setup](IMG_6377.mov)
 
 ## Reflection
 
