@@ -34,9 +34,22 @@
               "icon": "lucide-file",
               "title": "Week6"
             }
+          },
+          {
+            "id": "7a1063f59b85a68e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Week7.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week7"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "34cc882f38b389b7",
@@ -203,11 +217,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "54f3bdeea71937a1",
+  "active": "9167ea8fe6ba08c0",
   "lastOpenFiles": [
-    "week7.md",
+    "Week7.md",
     "Week6.md",
     "README.md",
+    "week7.md",
     "Week4.md",
     "Week5.md"
   ]
