@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Week11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Week11"
             }
           },
           {
@@ -275,14 +275,14 @@
   },
   "active": "c60a20a22f9d7e7e",
   "lastOpenFiles": [
-    "Week11.md",
-    "Week10.md",
-    "Week2.md",
     "README.md",
-    "Week1_Email_Screenshot.png",
+    "Week11.md",
     "Week9.md",
-    "Week10",
+    "Week10.md",
     "Week8.md",
+    "Week2.md",
+    "Week1_Email_Screenshot.png",
+    "Week10",
     "Week9",
     "Week7.md",
     "Week6.md",
